@@ -43,8 +43,12 @@ app.get('/airkorea/detail', async (req, res) => {
 
         if(airItem.pm25 <= 15) {
             badAir.push("좋음");
-        } else if 
-
+        } else if (pm25 > 15 && pm10 <= 35) {
+            badAir.push("보통");
+        } else {
+            badAir.push("나쁨");
+        }
+        res.send('관측 지역 : ${airItem.location} / 관측 시간: ${airItem.time} <br> 미세먼지 ${badAir[0]} 초미세먼지 ${badAir[1]} 입니다.');
     } catch (error) {
         console.log(error);
     }
