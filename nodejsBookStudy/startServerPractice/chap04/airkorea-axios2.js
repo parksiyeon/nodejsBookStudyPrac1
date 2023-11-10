@@ -54,6 +54,6 @@ app.get('/airkorea/detail', async (req, res) => {
     }
 });
 
-app.listen(app.get('port'), () =>{
-    console.log(app.get('port'), '번 포트에서 실행중. . .');
+app.listen(app.get('port'), () => {
+    console.log(app.get('port'), '번 포트에서 실행중. . .'); 
 });
