@@ -21,7 +21,8 @@
     "mongoose": "^8.0.0",
     "morgan": "^1.10.0",
     "request": "^2.88.2",
-    "uuid-apikey": "^1.5.3"
+    "uuid-apikey": "^1.5.3",
+    "ws": "^8.14.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
