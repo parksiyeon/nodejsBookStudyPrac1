@@ -21,6 +21,7 @@
     "mongoose": "^8.0.0",
     "morgan": "^1.10.0",
     "request": "^2.88.2",
+    "socket.io": "^4.7.2",
     "uuid-apikey": "^1.5.3",
     "ws": "^8.14.2"
   },
